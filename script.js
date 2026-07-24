@@ -168,3 +168,104 @@ else {
     console.log("No failures");
 
 }
+
+
+
+// let name = "Aabiyah";
+
+// let result = name.substring(0, 3);
+
+// console.log(result);
+
+// let name2 = "kamran";
+// let results = name.substring(0, 3);
+// console.log(result);
+
+// // let text = "Pakistan";
+
+// // console.log(text.substring(3));
+
+// let text = "aabyahkamran";
+
+// console.log(text.substring(4));
+
+// let name3 = "   Aabiyah   ";
+
+// console.log(name.trim());
+
+// let name4 = "  kamran1  ";
+// console.log(name4.trim());
+
+// let text = "I love JavaScript";
+
+// let result = text.split(" ");
+
+// console.log(result);
+
+// let fruits = "Apple,Mango,Banana,Orange";
+
+// let result2 = fruits.split(",");
+
+// console.log(result2);
+
+// let date = "28-07-2026";
+
+// let result3 = date.split(",");
+
+// console.log(result3);
+
+// let date = "28-07-2026";
+
+// let result4 = date.split("-");
+
+// console.log(result4[0] + "/" + result4[1] + "/" + result4[2]);
+
+// let fruits = ["Apple", "Mango", "Banana"];
+
+// let result = fruits.join(",");
+
+// console.log(result);
+
+// let fruits1 = "Apple,Mango,Banana,Orange";
+
+// let result2 = fruits1.split("-");
+
+// console.log(result2);
+
+// let date = ["28","07","2026"];
+
+// let result5 = date.join("/");
+// console.log(result5);
+
+// // let date = ["28", "07", "2026"];
+
+// // let result = date.join("/");
+
+// // console.log(result);
+
+// let text = "I love JavaScript";
+
+// console.log(text.includes("you"));
+
+// let today = new Date();
+
+// console.log(today.getDate());
+// console.log(today);
+// let now = new Date();
+
+// console.log(now.getMilliseconds());
+
+// let birthDate = new Date("1995-12-04");
+// let today = new Date();
+
+// let ageInMilliseconds = today - birthDate;
+
+// console.log(ageInMilliseconds);
+
+let microseconds = 966883208700;
+
+let milliseconds = microseconds / 1000;
+
+let date = new Date(milliseconds);
+
+console.log(date);
