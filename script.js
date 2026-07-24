@@ -266,6 +266,6 @@ let microseconds = 966883208700;
 
 let milliseconds = microseconds / 1000;
 
-let date = new Date(milliseconds);
+let date6 = new Date(milliseconds);
 
-console.log(date);
+console.log(date6);
